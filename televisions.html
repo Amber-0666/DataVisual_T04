@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/PowerIcon.png">
+<title>Televisions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="televisions">
+
+<header class="topnav" id="site-nav"></header>
+
+<main>
+  <section class="page active">
+    <h1>Televisions &amp; Energy Use</h1>
+    <p>
+      Televisions are an essential part of many Australian households, with a wide range of brands, 
+      screen sizes, and technologies available on the market. This website explores television energy consumption data 
+      in Australia through a series of visualisations, helping users understand key trends and factors that influence energy efficiency.
+    </p>
+
+    <h2>Questions to Investigate</h2>
+    <p>
+      The following questions guide the data analysis and visualisations for this section:
+    </p>
+    <div class="card-grid">
+      <div class="card">
+        <p>1. What type of TV screen technologies are currently available in Australia and which are the most frequent?</p>
+        <img src="images/Q1pie.png" alt="Q1 Pie Chart">
+        <img src="images/Q1bar.png" alt="Q1 Bar Chart">
+        <p>Answer: <strong> LCD (LED) is the most common TV screen technology</strong>, 
+          with 169 occurrences, making up the largest portion of the market represented in the charts.</p>
+      </div>
+      <div class="card">
+        <p>2. What screen sizes are available and which are most frequent?</p>
+        <img src="images/Q2bar.png" alt="Q2 Bar Chart">
+        <p>Answer: Based on the data, a wide range of TV screen sizes is available in Australia, including 
+          16", 18", 19", 21", 22", 23", 24", 27", 31", 32", 34", 38", 39", 40", 41", 42", 43", 46", 48", 49", 
+          50", 54", 55", 56", 57", 58", 60", 64", 65", 67", 69", 70", 74", 75", 76", 77", 78", 82", 83", 85", 
+          86", 88", 97", 98", 100", 114", and 116 inches.
+          <br><strong>The 65-inch TV is the most frequently available screen size</strong>, with 773 occurrences,
+          followed closely by the 55-inch TV with 762 occurrences. Other commonly available sizes 
+          include 75 inches (629 occurrences) and 85 inches (357 occurrences).
+          <br>Conclusion: The Australian TV market is dominated by larger screen sizes, particularly 55-inch, 
+          65-inch, and 75-inch televisions, indicating strong consumer preference for large-screen TVs.</p>
+      </div>
+      <div class="card">
+        <p>3. Which brands have the greatest number of different models?</p>
+        <img src="images/Q3bar.png" alt="Q3 Bar Chart">
+        <p>Answer: Based on the visualisation, <strong>Kogan has the greatest number of different TV models available</strong>, with 809 models. 
+          This is followed by LG with 723 models and Samsung Electronics with 699 models. 
+          Other brands with notable model ranges include Samsung (497 models) and Hisense (327 models).</p>
+      </div>
+      <div class="card">
+        <p>4. Which type of screen technology consumes the least amount of power?</p>
+        <img src="images/Q4bar.png" alt="Q4 Bar Chart">
+        <p>Answer: Based on the visualisation, <strong>LCD technology consumes the least amount of power</strong>, 
+          with a median average power consumption of approximately 71.35 W. 
+          In comparison, LCD (LED) screens consume about 106 W, while OLED screens have the highest median 
+          power consumption at 112.70 W.</p>
+      </div>
+      <div class="card">
+        <p>5. What is the relationship between screen size and power use?</p>
+        <img src="images/Q5scat.png" alt="Q5 Scatter Plot">
+        <p>Answer: Based on the scatter plot, there is a positive relationship between screen size and power consumption. 
+          <strong>As the screen size increases, the average power usage generally increases as well.</strong>
+          <br>Smaller televisions (around 20–40 inches) tend to consume relatively low amounts of power, 
+          whereas larger televisions (60 inches and above) show substantially higher power consumption. 
+          The highest power usage values are observed among the largest screen sizes, particularly those above 80 inches.
+          <br>In conclusion, there is a moderate to strong positive correlation between screen size and power use. 
+          Larger TVs generally require more power to operate, indicating that power consumption increases as screen size increases.</p>
+      </div>
+      <div class="card">
+        <p>6. What is the relationship between star rating and screen size?</p>
+        <img src="images/Q6scat.png" alt="Q6 Scatter Plot">
+        <p>Answer: Based on the scatter plot, there does not appear to be a strong relationship between screen size and star rating. 
+          For most screen sizes, the star ratings are spread across a wide range, typically between 3 and 7 stars.
+          <br>Both small and large TVs can have either high or low star ratings, 
+          and there is no clear upward or downward trend as screen size increases. While some larger TVs achieve high star ratings, 
+          similar ratings are also found among smaller and medium-sized TVs.
+          <br>In conclusion, the scatter plot suggests <strong>little to no significant correlation between screen size and star rating</strong>. 
+          Screen size alone does not appear to determine a TV's star rating, indicating that other factors such as 
+          energy efficiency, technology, and design may have a greater influence on the rating.</p>
+      </div>
+      <div class="card">
+        <p>7. Are there differences in power consumption between brands?</p>
+        <img src="images/Q7boxp.png" alt="Q7 Box Plot">
+        <img src="images/Q7bar.png" alt="Q7 Bar Chart">
+        <p>Answer: Based on the box plot and bar chart, there are clear differences in power consumption between TV brands. 
+          The average power consumption varies considerably across brands, with Spark Electronics recording the highest average power usage at 
+          approximately 233.45 W, followed by Emete (182.03 W) and Samsung Electronics (155.04 W). Other brands such as Sony, Dreame, TCL, 
+          and Samsung have average power consumption values ranging from about 142 W to 153 W, while Kogan shows one of the lower averages at 
+          approximately 130.03 W. The box plot also indicates substantial variation in power consumption among models within the same brand. 
+          Overall, the results suggest that power consumption differs significantly between brands, with some brands generally producing 
+          more energy-intensive televisions than others.</p>
+      </div>
+      <div class="card">
+        <p>8. Other questions that could be investigated with this data set, e.g.:</p>
+        <ul>
+          <li>Has average power consumption per screen size changed over recent model years?</li>
+          <li>Is there a relationship between star rating and brand?</li>
+          <li>Do higher-priced models tend to be more or less energy efficient?</li>
+        </ul>
+      </div>
+    </div>
+
+    <p>
+      The visualisations reveal patterns in the Australian television market, including the popularity of different screen technologies, 
+      sizes, and brands, as well as their energy consumption characteristics. By presenting these insights in a clear and interactive manner, 
+      the website helps users better understand television energy efficiency and supports more informed decision-making.
+    </p>
+
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
