@@ -186,5 +186,4 @@ footer {
   display: block;
   width: min(100%, 640px);
   height: auto;
-  aspect-ratio: 640 / 420;
 }
