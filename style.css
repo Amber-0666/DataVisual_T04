@@ -184,6 +184,7 @@ footer {
 
 .responsive-svg-container svg {
   display: block;
-  width: 100%;
+  width: min(100%, 640px);
   height: auto;
+  aspect-ratio: 640 / 420;
 }
