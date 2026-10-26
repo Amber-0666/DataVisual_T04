@@ -175,3 +175,15 @@ footer {
   font-style: italic;
   font-size: 0.8rem;
 }
+
+.responsive-svg-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.responsive-svg-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
