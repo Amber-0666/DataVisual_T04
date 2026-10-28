@@ -16,7 +16,7 @@ var navHTML = `
 `;
 
 var footerHTML = `
-  <p>&copy; <span id="year"></span> Amberlyn Lim (104391342). Built for COS30045 Data Visualisation - Lab Exercise Live Demonstration T01 T02 T03.</p>
+  <p>&copy; <span id="year"></span> Amberlyn Lim (104391342). Built for COS30045 Data Visualisation - Lab Exercise Live Demonstration T04.</p>
   <p class="genai-note">Some code and/or content on this site was generated with the assistance of a Generative AI tool (Claude, by Anthropic).</p>
 `;
 
